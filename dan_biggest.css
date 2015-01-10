@@ -1,0 +1,119 @@
+body{
+    margin-left: 0px;
+}
+div.header_images{
+    /*position:absolute;*/
+    width: 50%;
+    height: 70px;
+    margin: 0px 0px 0px 0px;
+    display: block;
+    clear:right;
+    /*background-color: blue;*/
+}
+
+div.title_image{
+    width: 300px;
+    height: 73px;
+        display: block;
+    /*float: left;*/
+}
+
+div.title_image img{
+    width: 300px;
+    height: 73px;
+}
+
+div.author_name_image{
+    width: 130px;
+    height: 16px;
+    display: inline-block;
+    margin-left: 20px;
+padding-bottom: 20px;
+}
+
+div.author_name_image img{
+    width: 130px;
+    height: 16px;
+}
+
+div.image_container{
+    /*margin-left: auto;
+    margin-right: auto;
+    text-align: center;*/
+    float: left;
+    height: 533px;
+    margin-top: 1em;
+    padding-left: 1em;
+}
+
+div.image_container img{
+    max-height: 533px;
+    width: auto;
+    max-width: 533px;
+        -webkit-transform:translate3d(0,0,0);
+}
+
+div.navigation{
+    /*margin: 0px auto 0px auto;
+    width: 100%;*/
+    margin-top: 8em;
+    float: right;
+    text-align: center;
+    padding:0;
+    margin-right: 2em;
+}
+
+div.arrow_left{
+    height: 100px;
+    width: 50px;
+    margin-right: 10%;
+    display: block;
+    box-sizing: border-box;
+        background:url('panels/left-arrow.png');
+    background-size: 100%;
+}
+div.arrow_left img{
+    height: 100px;
+    width: 50px;
+}
+
+div.start{
+    display:block;
+    height: 30px;
+    width: 75px;
+    margin-top: 2em;
+    background: url("panels/start.png");
+    background-size: 100%;
+}
+div.start img{
+    height: 50px;
+    width: 126px;
+}
+
+div.arrow_right{
+display: block;
+margin-left: 10%;
+    height: 100px;
+    width: 50px;
+        margin-top: 2em;
+                background:url('panels/right-arrow.png');
+    background-size: 100%;
+}
+div.arrow_right img{
+    height: 100px;
+    width: 50px;
+}
+
+.blank {
+    opacity: 0;
+}
+
+div.border_hover_left{
+            background:url('panels/left-arrow-hover.png');
+                background-size: 100%;
+}
+
+div.border_hover_right{
+            background:url('panels/right-arrow-hover.png');
+                background-size: 100%;
+}
